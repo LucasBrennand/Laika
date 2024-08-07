@@ -18,28 +18,31 @@ body{
 .welcome{
   font-size: xx-large;
   color: black;
-  margin-top: 20px;
+  margin: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .innerBox{
   width: 500px;
-  height: 300px;
-  border: 1px solid black;
+  height: 400px;
+  border: 3px solid white;
+  display: block;
+  color: black;
 }
 .info input{
   background-color: transparent;
   color: black;
   border: 1px solid gray;
   width: 500px;
-  height: 30px;
+  height: 35px;
+  padding-left: 50px;
+  margin-bottom: 18px;
 }
 .info input:focus{
   outline: none;
 }
-.info input:active{
 
-}
 .info input::placeholder{
   color: black;
   left: 50px;
@@ -47,7 +50,9 @@ body{
 }
 .info i{
   position: absolute;
-  transform: translateX(20%);
+  transform: scale(150%);
+  padding: 9px 10px;
+  color: black;
 }
 
 .loginBtn{
@@ -71,10 +76,30 @@ body{
   margin: 0 auto 40px;
   flex-direction: row;
 }
+.options a{
+  text-underline: none;
+}
 .forgotLink{
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.register{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.copyright{
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  display: block;
+  position: fixed;
+  padding-bottom: 10px;
 }
 
 
